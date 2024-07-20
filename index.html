@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="safe-zone">
+            <div id="player" class="block"></div>
+        </div>
+       
+        <div id="goal" class="block"></div>
+        
+        <div class="enemy block" style="top: 50px; left: 50px;" data-direction="right"></div>
+        <div class="enemy block" style="top: 200px; left: 200px;" data-direction="right"></div>
+        <div class="enemy block" style="top: 250px; left: 250px;" data-direction="right"></div>
+        <div class="enemy block" style="top: 300px; left: 300px;" data-direction="right"></div>
+        <div class="enemy block" style="top: 20px; left: 20px;" data-direction="right"></div>
+        <div class="enemy block" style="top: 100px; left: 100px;" data-direction="right"></div>
+        <div class="enemy block" style="top: 150px; left: 150px;" data-direction="right"></div>
+        <div class="enemy block" style="top: 50px; left: 150px;" data-direction="down"></div>
+        <div class="enemy block" style="top: 100px; left: 200px;" data-direction="down"></div>
+        <div class="enemy block" style="top: 150px; left: 250px;" data-direction="down"></div>
+        <div class="enemy block" style="top: 200px; left: 300px;" data-direction="down"></div>
+        <div class="enemy block" style="top: 250px; left: 350px;" data-direction="down"></div>
+
+    </div>
+<button id="start-button">Start Game</button>
+<script src="script.js"></script>
+</body>
+</html>
