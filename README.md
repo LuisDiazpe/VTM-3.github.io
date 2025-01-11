@@ -1,7 +1,3 @@
-Aquí tienes una versión mejorada del README: 
-
----
-
 # VTM-3.github.io 🎮
 
 ¡Bienvenido! Este proyecto es una versión simple del famoso **"juego más difícil del mundo"**. Fue creado como parte de un reto: hacerlo en menos de **20 minutos**, ¡y aquí está el resultado! 🚀
